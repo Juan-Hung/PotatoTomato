@@ -1,0 +1,52 @@
+.backgroundcolor{
+    background-color: rgb(255, 255, 224);
+    width: 100%;
+    padding-left: 9%;
+    padding-bottom: 5%;
+}
+.hidden{
+    height: 12.5%;
+    background-color: rgb(255, 255, 216);
+}
+.backgroundcolor .pic{
+    height: 250px;
+    width: 250px;
+    border-radius: 20%;
+}
+.columns
+{
+    width: 100%;
+    display: flex;
+}
+.backgroundcolor .columns .block{
+    margin-left: 10%;
+    margin-top: 3%; 
+    transition: all 0.4s linear;
+    position: relative;
+}
+.backgroundcolor .columns .p{
+    text-align: center;
+    font-size: 17px;
+    font-weight: bold;
+    margin-top: 5%;
+    position: relative;
+}
+.cover{
+    height: 250px;
+    width: 250px;
+    border-radius: 20%;
+    position: absolute;
+    bottom: 17.55%;
+    padding-top: 45%;
+    font-size: 0;
+}
+.cover:hover{
+    transition: all ease-out 0.2s 0s;
+    opacity: 0.7;
+    background-color: rgba(255, 255, 255, 0.6);
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    font-family:DFKai-sb,思源黑體 , 微軟正黑體 , 蘋方黑體 , 華康麗黑體 , Helvetica , Arial , sans-serif , serif;
+}

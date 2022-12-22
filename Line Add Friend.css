@@ -1,0 +1,26 @@
+.LINEblock{
+    width: 100%;
+    padding-left: 25%;
+}
+.LINETEXT{
+    height: 7%;
+    width: 7%;
+    margin: 3% 0;
+}
+.QRcode{
+    padding-left: 35%;
+}
+.ptop{
+    display: block;
+    margin-left: 40%;
+}
+.pmid{
+    display: block;
+    margin-left: 30%;
+    color: rgb(143, 143, 143);
+}
+.pbottom{
+    display: block;
+    margin-left: 37%;
+    color: rgb(143, 143, 143);
+}

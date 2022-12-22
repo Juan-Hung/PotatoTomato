@@ -1,0 +1,32 @@
+.titleh2{
+    margin-top: 10%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.h2{
+    color: rgb(123, 85, 27);
+}
+.text{
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.text .p{
+    font-size: 24px;
+    text-indent: 3.5%;
+}
+.greenlight{
+    display: flex;
+    padding-left: 4%;
+    padding-top: 2%;
+    padding-bottom: 5%;
+}
+.greenlight .img{
+    height: 470px;
+    width: 40%;
+    margin-left: 5%;
+}
+.titleh2sec{
+    margin-top: 3%;
+    padding-left: 5%;
+    padding-right: 5%;
+}

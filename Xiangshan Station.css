@@ -1,0 +1,80 @@
+.header{
+    display: flex;
+    padding: 1%;
+    background-color: rgba(202, 195, 205, 0.6);
+    position: fixed;
+    width: 100%;
+    z-index: 3;
+}
+.introducestart{
+    display: flex;
+    margin-top: 5.9%;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top: 3%;
+    height: 50%;
+    width: 60%;
+    margin-right: 20%;
+    margin-left: 20%;
+}
+.introducestart .pic{
+    height: 80%;
+    width: 40%;
+}
+.introducestart .p{
+    margin-left: 3%;
+    margin-right: 3%;
+    vertical-align: middle;
+    padding-top: 5%;
+    text-indent: 7%;
+}
+.introducemid .p{
+    margin-left: 3%;
+    margin-right: 3%;
+    padding-top: 5%;
+    text-indent: 7%;
+}
+.introduceend .p{
+    margin-left: 3%;
+    margin-right: 3%;
+    padding-top: 3%;
+    text-indent: 7%;
+}
+.introducemid{
+    display: flex;
+    padding-left: 3%;
+    padding-top: 3%;
+    padding-right: 3%;
+    height: 50%;
+    margin-right: 20%;
+    margin-left: 20%;
+}
+.introducemid .pic{
+    height: 80%;
+    width: 40%;
+}
+.introducemid.p{
+    margin-left: 3%;
+    margin-right: 3%;
+}
+.videoblock{
+    padding-left: 20%;
+}
+.introduceend{
+    display: flex;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top: 3%;
+    height: 50%;
+    width: 60%;
+    margin-right: 20%;
+    margin-left: 20%;
+}
+.introduceend .pic{
+    height: 80%;
+    width: 40%;
+}
+.introduceend .p{
+    margin-left: 3%;
+    margin-right: 3%;
+}

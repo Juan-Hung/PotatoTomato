@@ -1,0 +1,214 @@
+*{
+    margin: 0;
+    padding: 0;
+    }
+    html, body {
+        height: 100%;
+        width: 100%;
+        overflow-x:hidden;
+        overflow-y:auto;
+    }
+.header{
+    display: flex;
+    padding: 1%;
+    background-color: rgb(255, 240, 240,0.6);
+    position: fixed;
+    width: 100%;
+    z-index: 3;
+}
+.nav{
+    margin-top: 0.3%;
+    text-align: right;
+    width: 100%;
+    padding-right: 10%;
+}
+.header .img{
+    height: 5%;
+    width: 5%;
+    margin-left: 7%;
+    background-repeat: no-repeat;
+}
+.header .nav .a{
+    line-height: 40px;
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 10px;
+    position: relative;
+    transition: all 0.4s linear;
+    font-weight: bold;
+}
+.header .nav .atext{
+    line-height: 40px;
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    margin-right: 10%;
+    padding: 10px;
+    position: relative;
+    transition: all 0.4s linear;
+    font-weight: bold;
+}
+.nav a + a::before{
+    content:'|';
+    color: rgb(5, 5, 5);
+    position: absolute;
+    left: 0;
+}
+.banner{
+    width: 100%;
+    height: 100VH;
+    display: flex;
+}
+.banner .img{
+    width: 100%;
+    height: 100VH;
+    opacity: 0.99;
+    background-repeat: no-repeat;
+}
+.header .nav .a:hover{
+    font-size: 17px;  
+    transform:scale(1.02);
+    font-weight: bold;
+}
+.header .nav .atext:hover{
+    font-size: 17px;   
+    transform:scale(1.02);
+    font-weight: bold;
+}
+.introduce{
+    height: 15%;
+    width: 100%;
+    text-align: center;
+    font-size: 16px;
+    color: rgb(103, 103, 103);
+    margin-top: 5%;
+}
+.about{
+    width: 100%;
+    padding-top: 4%;
+    padding-bottom: 4%;
+}
+.about .wrap{
+    width: 100%;
+    display: flex;
+}
+.about .wrap .item{
+    width: 50%;
+    text-align: center;
+}
+.about .wrap .item .img{
+    width: 70%;
+    opacity: 0.9;
+    border-radius: 3%;
+    background-repeat: no-repeat;
+    transition: all 0.4s linear;
+}
+.about .wrap .item .a{
+    font-size: 40px;
+    color: rgb(103, 103, 103);
+}
+.about .wrap .item .img:hover{
+    transform:scale(1.02);
+}
+.vision{
+    background-color: rgb(207, 206, 206);
+    padding: 3% 20%;
+}
+.vision .h2{
+    color: rgb(8, 94, 48);
+}
+.vision .p{
+    display: block;
+    margin-top: 5%;
+    color: rgb(28, 144, 82);
+    text-indent: 3.5%;
+    font-size: 25px;
+}
+.mapblock{
+    display: flex;
+    background-color:rgb(207, 206, 206);
+}
+
+.aboutus{
+    height: 10%;
+    padding-top: 2%;
+    padding-left: 10.5%;
+    background-color:rgb(207, 206, 206);
+}
+.aboutus .p{
+    font-size: 20px;  
+    font-weight: bold;
+}
+.banner{
+    display: flex;
+    background-color:rgb(207, 206, 206);
+    padding-left: 10.5%;
+    padding-right: 10.5%;
+    height: 70%;
+}
+.lineblock{
+    width: 90%;
+    margin-left: 20%;
+    margin-top: 11%;
+    border-style: solid;
+    border-color: rgb(72, 72, 72);
+    padding: 3%;
+    display:flex;
+}
+.youtubeblock{
+    width: 90%;
+    margin-left: 20%;
+    margin-top: 5%;
+    border-style: solid;
+    border-color: rgb(72, 72, 72);
+    padding: 3%;
+    display:flex;
+}
+.youtubeblock .p{
+    font-size: 30px;
+    margin-top: 5%;
+    margin-left: 15%;
+}
+.lineblock .p{
+    font-size: 30px;
+    margin-top: 5%;
+    margin-left: 23%;
+}
+.linelogo{
+    height: 20%;
+    width: 20%;    
+}
+.youtubelogo{
+    height: 20%;
+    width: 20%;
+}
+.footerblock{
+    background-color: #aaa;
+    color: rgb(255, 255, 255);
+    padding: 3% 0;
+    display: flex;
+}
+.footerblock .img{
+    height: 10%;
+    width: 10%;
+    margin-left: 35%;
+}
+.footerblock .contact{
+    color: rgb(44, 66, 14);
+    font-weight: bold;
+    margin-left: 30%;
+    display: block;
+}
+.footerblock .p{
+    color: rgb(255, 255, 255);
+    margin-left: 30%;
+    display: block;
+}
+.black{
+    height: 3%;
+    width: 3%;
+}
+.coating{
+    background-color: #aaa;
+}
